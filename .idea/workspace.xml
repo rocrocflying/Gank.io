@@ -9,52 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af85fcdc-7af9-47cc-bce4-134216c76eaa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_3_7_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_chrisbanes_photoview_library_1_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/activity/ActivityPictureView.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/adapter/viewhoder/FuliViewHolder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/tab/GankTabFuli.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_back.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_up.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_app.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_more.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_recommend.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_video.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_fuli_viewholder.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_picture_view.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_toolbar.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/Net/Configs.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/Net/Configs.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/activity/ActivityBase.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/activity/ActivityBase.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/activity/ActivityWebDetail.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/activity/ActivityWebDetail.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/adapter/CommonAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/adapter/CommonAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/adapter/viewhoder/CommonViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/adapter/viewhoder/CommonViewHolder.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/data/dataQuery.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/data/dataQuery.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/entity/Article.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/entity/Article.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/entity/ItemArticle.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/entity/ItemArticle.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/tab/GankTabAll.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rocflying/gankio/tab/GankTabCommon.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_home.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_common_viewholder.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_common_viewholder.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-    </list>
+    <list default="true" id="af85fcdc-7af9-47cc-bce4-134216c76eaa" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -2257,8 +2212,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-17" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="104" />
     <option name="y" value="103" />
     <option name="width" value="1280" />
     <option name="height" value="645" />
@@ -2686,7 +2641,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-17" y="103" width="1280" height="645" extended-state="0" />
+    <frame x="104" y="103" width="1280" height="645" extended-state="1" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.681445" sideWeight="0.4935275" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
