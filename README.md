@@ -5,8 +5,8 @@
 
 ![](/screen/Screenshot_1.png)
 
-![Screenshot_2](/screen/Screenshot_2.png)
+![Screenshot_2](/screen/Screenshot_2.png width="270" height="486")
 
-![Screenshot_3](/screen/Screenshot_3.png)
+![Screenshot_3](/screen/Screenshot_3.png width="270" height="486")
 
-![Screenshot_4](/screen/Screenshot_4.png)
+![Screenshot_4](/screen/Screenshot_4.png width="270" height="486")
