@@ -1,7 +1,7 @@
 # Gank.io
 
 
-一款Gank.io客户端软件,数据来源于[htpp://gank.io]()。
+一款Gank.io客户端软件,数据来源于[https://gank.io]()。
 
 
 
