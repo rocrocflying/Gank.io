@@ -9,4 +9,4 @@
 
 ![Screenshot_3](/Users/liupeng/Gank.io/screen/Screenshot_3.png)
 
-![Screenshot_4](/Users/liupeng/Gank.io/screen/Screenshot_4.png)
+![Screenshot_4](/screen/Screenshot_4.png)
