@@ -22,6 +22,7 @@ public class ActivityWebDetail extends ActivityBase {
     private ProgressBar loadProgressBar;
     private WebView webView;
     private String url;
+    private String title;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -32,9 +33,10 @@ public class ActivityWebDetail extends ActivityBase {
         initEvent();
     }
 
-    public static void openActivity(Context context, String url) {
+    public static void openActivity(Context context, String url, String title) {
         Intent intent = new Intent(context, ActivityWebDetail.class);
         intent.putExtra("url", url);
+        intent.putExtra("title", title);
         context.startActivity(intent);
 
     }
@@ -53,7 +55,8 @@ public class ActivityWebDetail extends ActivityBase {
     @Override
     public void initData() {
         url = getIntent().getStringExtra("url");
-
+        title = getIntent().getStringExtra("title");
+        setTitle(title);
     }
 
     @Override
@@ -65,7 +68,7 @@ public class ActivityWebDetail extends ActivityBase {
         settings.setDisplayZoomControls(false);// ȡ�����½����Ű�ť��ʾ
         webView.getSettings().setDefaultTextEncodingName("utf-8");
 
-        webView.setWebViewClient(new WebViewClient(){
+        webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
                 view.loadUrl(url);

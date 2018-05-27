@@ -7,6 +7,7 @@ public class ItemArticle {
 
     public String publishTime;
     public String desc;
-    public String type;
+    public int type;//0为android，1位iOS,2为福利
     public String url;
+
 }

@@ -5,5 +5,5 @@ package com.rocflying.gankio.Net;
  */
 public class Configs {
     public static final String apiHost="http://gank.io";
-    public static final String GET_DATA_ALL_URL=apiHost+"/api/data/all/20/1";
+    public static final String GET_DATA_ALL_URL=apiHost+"/api/data/#/20/1";
 }

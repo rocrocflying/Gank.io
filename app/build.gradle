@@ -10,6 +10,7 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -30,6 +31,8 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
 
     implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
-    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5'//Ã»ÓĞÊ¹ÓÃÌØÊâHeader£¬¿ÉÒÔ²»¼ÓÕâĞĞ
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5'//Ã»ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Headerï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.github.chrisbanes.photoview:library:1.2.3'
 
 }
