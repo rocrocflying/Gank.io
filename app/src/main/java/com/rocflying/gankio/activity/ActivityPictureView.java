@@ -6,22 +6,32 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.Toolbar;
 
 import com.bumptech.glide.Glide;
+import com.rocflying.gankio.Net.NetUtils;
 import com.rocflying.gankio.R;
+import com.rocflying.gankio.ui.WaitProgressDialog;
 
 import uk.co.senab.photoview.PhotoViewAttacher;
+
+import static com.rocflying.gankio.Net.HttpCallBack.codeSuccess;
 
 /**
  * Created by liupeng on 2018/5/27.
  */
-public class ActivityPictureView extends ActivityBase {
+public class ActivityPictureView extends ActivityBase implements View.OnClickListener {
     private ImageView picImageView;
     private String url;
     private android.support.v7.widget.Toolbar toolbar;
+
+    private ImageView ivBack;
+    private ImageView ivSave;
 
     @Override
     public void setContentView() {
@@ -49,6 +59,8 @@ public class ActivityPictureView extends ActivityBase {
         setContentView(R.layout.layout_picture_view);
         getView();
         getData();
+        ivBack.setOnClickListener(this);
+        ivSave.setOnClickListener(this);
     }
 
     public static void openActivityPictureView(Context context, String url) {
@@ -64,14 +76,36 @@ public class ActivityPictureView extends ActivityBase {
     }
 
     private void getView() {
+        getSupportActionBar().hide();
         picImageView = (ImageView) findViewById(R.id.iv_pic);
+        ivBack = findViewById(R.id.iv_back);
+        ivSave = findViewById(R.id.iv_save);
 
-//        toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-//        ActionBar actionBar = getSupportActionBar();
-//        if (actionBar != null) {
-//            actionBar.setHomeButtonEnabled(true);
-//            actionBar.setDisplayHomeAsUpEnabled(true);
-//        }
     }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.iv_save:
+                showDownloadDialog();
+                break;
+            case R.id.iv_back:
+                finish();
+                break;
+        }
+    }
+
+    private void showDownloadDialog() {
+        final WaitProgressDialog dialog = new WaitProgressDialog(this);
+        dialog.setMsg(getString(R.string.title_download));
+        dialog.show();
+        NetUtils.getInstance().downloadFile(this,url, new NetUtils.NetWorkCallBack() {
+            @Override
+            public void onResponseFinish(int code, String result) {
+                dialog.dismiss();
+            }
+        });
+    }
+
+
 }

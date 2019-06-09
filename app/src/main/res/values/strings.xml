@@ -11,4 +11,7 @@
     <string name="item_type_ios">IOS</string>
     <string name="item_type_fuli">福利</string>
 
+    <string name="title_load_tips">加载中...</string>
+    <string name="title_download">下载中请稍后</string>
+
 </resources>

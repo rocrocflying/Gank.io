@@ -15,7 +15,8 @@ import okhttp3.Response;
 public class HttpCallBack implements Callback {
     private NetUtils.NetWorkCallBack callback;
     private android.os.Handler handler = new android.os.Handler(Looper.getMainLooper());
-    private final int codeErro = 0;
+    public static final int codeErro = 0;
+    public static final int codeSuccess = 1;
 
     public HttpCallBack(NetUtils.NetWorkCallBack callback) {
         this.callback = callback;
@@ -34,12 +35,12 @@ public class HttpCallBack implements Callback {
     }
 
     @Override
-    public void onResponse(final Call call,final  Response response) throws IOException {
-       final String result= response.body().string();
+    public void onResponse(final Call call, final Response response) throws IOException {
+        final String result = response.body().string();
         handler.post(new Runnable() {
             @Override
             public void run() {
-                callback.onResponseFinish(response.code(),result );
+                callback.onResponseFinish(response.code(), result);
 
             }
         });
